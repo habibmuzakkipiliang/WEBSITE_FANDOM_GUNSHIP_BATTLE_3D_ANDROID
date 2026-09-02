@@ -1,0 +1,81 @@
+/* =================================================== */
+/* ATURAN WARNA KUSTOM & TEMA MILITER GELAP (2026 UI)  */
+/* =================================================== */
+
+/* Latar belakang utama bernuansa hijau militer gelap */
+body {
+  background-color: #0b130e;
+  color: #ffffff !important; /* Memastikan semua teks di body berwarna putih terang */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Memastikan seluruh teks default berwarna putih */
+p, h1, h2, h3, h4, h5, h6, span, td, th, div {
+  color: white;
+}
+
+/* Kategori Gelap untuk Elemen Kartu dan Seksi */
+.bg-military-dark {
+  background-color: #0f1a13 !important;
+}
+
+.bg-military-hero {
+  background-color: #14241a !important;
+}
+
+.bg-military-card {
+  background-color: #0b130e !important;
+}
+
+/* Pengaturan Ukuran Foto Profil Habib Muzakki Piliang */
+.profile-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Pengaturan Tampilan Gambar Pesawat di Dalam Kartu */
+.aircraft-img {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #28a745;
+  background-color: #1a2e22; /* Placeholder warna jika gambar belum diisi */
+}
+
+/* Desain Tombol Kustom */
+.btn-custom-outline {
+  border: 1px solid #ffffff;
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-custom-outline:hover {
+  background-color: #ffffff;
+  color: #0b130e !important;
+}
+
+.btn-custom-playstore {
+  background-color: #00875a;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.btn-custom-playstore:hover {
+  background-color: #006644;
+}
+
+/* Efek Hover Lembut pada Kartu Pesawat */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(40, 167, 69, 0.2);
+}
+
+/* Mengatur Ruang Jarak Antar Teks */
+.tracking-wider {
+  letter-spacing: 1.5px;
+}
